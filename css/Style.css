@@ -1,0 +1,129 @@
+
+/* Seletor para limpar a formação padrão*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* Formatação Link */
+a
+{
+    color: black;
+text-decoration: none;
+padding: 5px 15px;
+}
+a:hover
+{
+    color:#FFFFFF;
+    background: black;
+}
+a:active
+{
+    color:#b9c941;
+}
+
+
+/* id># chama o style e pode ser utilizado dentro das tags */
+
+body{
+    font-size: 16px;
+      
+    font-family: Verdana, Geneva, sans-serif;
+    background:#B5C8DE;
+
+}
+h1{
+    color: #5C0AD1;
+
+}
+
+/* ID */
+
+#navegacao
+{
+    background:  #6600CC;
+    border-bottom: 1px solid #d8d8d8;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+#menu-area
+{
+    
+    width: 720px;
+    margin: 0 auto;
+}
+
+#menu
+{
+    float: right;
+    padding: 10px;
+    
+}
+
+
+#area-principal
+{
+    width: 1024px;
+    margin: 60px auto 10px auto;
+}
+
+#postagem
+{
+    background: #9999FF;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#galeria
+{
+    background: #9999FF;
+    float: left;
+    margin: 10px;
+}
+#align
+{
+    text-align: justify;
+}
+
+/*  Classes */
+
+.fontsize
+{
+    font-size: 24px;
+    
+}
+
+.dataPostagem
+{
+    font-size: 14px;
+    border-bottom: 1px solid #B5C8DE;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.fixedImage
+{
+    width: 240px;
+    height: auto;
+    float: left;
+    margin: 0 10px 5px 0 ;
+}
+.postado
+{
+    border-left: 5px solid #B5C8DE;
+    margin: 10px 5px 5 px 0;
+    padding-left: 5px;
+    display: block;
+}
+.clear
+{
+   clear:both;
+}
